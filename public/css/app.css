@@ -1,0 +1,87 @@
+body {
+  background: #fff;
+}
+.navbar-default {
+  background: transparent;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: #55c2eb;
+  font-size: 3em;
+  padding: 10px 15px;
+}
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle:hover {
+  border: none;
+  background: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #55c2eb;
+  height: 3px;
+  margin-bottom: 6px;
+  width: 30px;
+}
+.row.banner {
+  position: relative;
+}
+.banner-text {
+  bottom: 30px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+}
+.banner-text h2 {
+  font-size: 1.6em;
+}
+.banner-text h2 span {
+  display: inline-block;
+}
+.banner-text a {
+  display: block;
+}
+.btn-bt {
+  background: #55c2eb;
+  color: #00192e;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 8px 28px;
+}
+.link.icon-flecha {
+  background: #00192e;
+  color: #55c2eb;
+  height: auto;
+  display: inline-block;
+  padding: 8px 10px;
+}
+.banner-home {
+  height: 720px;
+}
+.banner-home .item {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.pistones {
+  background: transparent url("../../images/pistones-mobile.jpg") no-repeat center top;
+  background-size: cover;
+}
+.works-home {
+  height: auto;
+  overflow: hidden;
+}
+.works-home .item {
+  background: #f9c667;
+  background: radial-gradient(ellipse at center, #f9c667 0%, #f79621 100%);
+  display: block;
+  height: 290px;
+  float: left;
+}
+
+/*# sourceMappingURL=app.css.map */
