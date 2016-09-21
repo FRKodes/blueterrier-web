@@ -1,10 +1,22 @@
 azul = #55C2EB
 negro = #00192E
+negro2 = #1D242A
+blanco = #FFFFFF
+gris1 = #6E7379
+.azul
+	color azul
+.blanco
+	color blanco
+.no-margin
+	margin 0 !important
 body
 	background white
+	font-family 'Ropa Sans', sans-serif
 .navbar-default
 	background transparent
 	border none
+	.navbar-nav>li>a
+		color azul
 	.navbar-brand
 		color azul
 		font-size 3em
@@ -30,6 +42,7 @@ body
 	padding-left 15px
 	padding-right 15px
 	position absolute
+	width 100%
 	h2
 		font-size 1.6em
 		span
@@ -38,37 +51,143 @@ body
 			// -webkit-background-clip text
 			// -webkit-text-fill-color transparent
 			// background -webkit-linear-gradient(225deg, rgb(3, 175, 237), rgb(46, 193, 89))
-	a
-		display block
+.btn-container
+	display flex
+	margin 30px 0
 .btn-bt
 	background azul
 	color negro
-	display inline-block
+	display flex
 	margin 0 auto
 	padding 8px 28px
+	width 90%
 .link.icon-flecha
+.link.icon-mas
 	background negro
 	color azul
 	height auto
-	display inline-block
+	display flex
+	justify-content center
+	align-items center
 	padding 8px 10px
+	width 10%
 .banner-home
 	height 720px
 	.item
 		display inline-block
 		height 100%
 		width 100%
+		overflow hidden
+		.inner-element
+			width 60%
+			height auto
+			display block
+			position absolute
+			overflow hidden
+			right 0
+			bottom 0
 .pistones
 	background transparent url(../../images/pistones-mobile.jpg) no-repeat center top
 	background-size cover
-.works-home
-	height auto
-	overflow hidden
-	.item
-		background #f9c667
-		background -moz-radial-gradient(center, ellipse cover,  #f9c667 0%, #f79621 100%)
-		background -webkit-radial-gradient(center, ellipse cover,  #f9c667 0%,#f79621 100%)
-		background radial-gradient(ellipse at center,  #f9c667 0%,#f79621 100%)
+	img
+		width 140%
+		height auto
 		display block
-		height 290px
-		float left
+		margin-right -35%
+.works-home
+	.item-work
+		height auto
+		overflow-x hidden
+		text-align center
+		width 100%
+		img
+			display block
+			height auto
+			width 110%
+    		margin-left -5%
+	.kamado
+		background-color beige
+	.agua-maldita
+		background black
+	.boreal
+		background #E81C25
+	.otro
+		background green
+footer
+	background-color negro2
+	color blanco
+	height auto
+	padding-top 30px
+	padding-bottom 30px
+	.services
+		list-style none
+		padding 0
+		.icon-flecha
+			font-size .8em
+			margin-right 3px
+		a
+			display inline-block
+	.social
+		padding 0
+		text-align center
+		display flex
+		height 105px
+		align-items flex-end
+		justify-content center
+		li
+			border 2px solid gris1
+			border-radius 50%
+			display inline-block
+			height 30px
+			margin-right 20px
+			width 30px
+			a
+				align-items center
+				display flex
+				height 100%
+				justify-content center
+				width 100%
+			.icon-face
+				align-self center
+@media screen and (min-width: 425px)
+	.banner-home
+		.item
+			.inner-element
+				width 220px
+@media screen and (min-width: 768px)
+	.banner-home
+		height 1018px
+		.item
+			.inner-element
+				width 350px
+			&.pistones
+				background transparent url(../../images/pistones-back-desktop.jpg) no-repeat center top
+				background-size cover
+				img
+					width 120%
+					margin-right 0
+	.banner-text
+		padding-left 30px
+		padding-right 30px
+		width 75%
+		h2
+			font-size 1.6em
+	.works-home
+		text-align center
+		.item-work
+			width 50%
+			float left
+			img
+				width 100%
+@media screen and (min-width: 992px)
+	.banner-home
+		1177px
+		.item
+			.inner-element
+				width 420px
+			&.pistones
+				img
+					width 100%
+	.banner-text
+		bottom 280px
+		width 80%
