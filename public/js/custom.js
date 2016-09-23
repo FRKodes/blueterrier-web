@@ -49,4 +49,18 @@ $(document).ready(function(){
 			// instead of a settings object
 		]
 	});
+
+	$('.service-btn a').on('click', function () {
+		$(this).parent().toggleClass('opened');
+	});
+
+	var window_width = $( window ).width();
+	if (window_width<992) {
+		$('.service-btn a').on('click', function(){
+			var extra_content = $(this).attr('data-open');
+			$(this).parent().toggleClass('p-bottom-0')
+			$('.extra-content.' + extra_content).toggleClass('show-this hidden');
+			console.log(extra_content);
+		});
+	};
 });

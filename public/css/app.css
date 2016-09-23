@@ -1,8 +1,19 @@
 .azul {
   color: #55c2eb;
 }
-.blanco {
+.blanco,
+.white {
   color: #fff;
+}
+.gris1 {
+  color: #6e7379;
+}
+.p-bottom-0 {
+  padding-bottom: 0px !important;
+}
+.margin-sides-15 {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .no-margin {
   margin: 0 !important;
@@ -10,6 +21,11 @@
 .back {
   background-color: rgba(0,0,0,0.8) !important;
   transition: background-color 1s ease;
+}
+.show-this {
+  height: auto !important;
+  display: block;
+  transition: 0.5s ease;
 }
 body {
   background: #fff;
@@ -190,6 +206,146 @@ margin-left -5% .otro {
   background-color: #033a63;
   transition: background-color 1s ease;
 }
+/*SERVICES*/
+.inner-banner {
+  height: 670px;
+  background-color: #dfdfdf;
+  display: block;
+  color: #fff;
+  position: relative;
+}
+.inner-banner.services {
+  background: transparent url("../../images/banner-services-mobile.jpg") no-repeat center center;
+  background-size: cover;
+}
+.inner-banner-text {
+  position: absolute;
+  bottom: 10px;
+}
+.inner-banner-text .arrow-down-btn {
+  width: 30px;
+  height: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+  background-color: #033a63;
+  color: #55c2eb;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.inner-banner-text .arrow-down-btn .icon-flecha {
+  font-size: 1.2em;
+  transform: rotate(90deg);
+  width: 15px;
+  height: 15px;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.service-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+.service-btn a {
+  text-decoration: none;
+  transition: color 1s ease;
+}
+.service-btn a:hover,
+.service-btn a:active,
+.service-btn a:focus {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  transition: color 1s ease;
+}
+.service-btn span.icon-mas {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: all 0.3s ease;
+  transform: rotate(0deg);
+}
+.service-btn.opened span.icon-mas {
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+  right: 12px;
+  top: 10px;
+}
+.service-btn h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  width: 40%;
+}
+.service-btn p {
+  margin: 0;
+}
+.service-btn .extra-content {
+  color: #fff;
+  height: 0px;
+  transition: 0.5s ease;
+  overflow: hidden;
+  padding: 20px 0 0;
+}
+.service-btn .extra-content p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.service-btn .extra-content.web-design,
+.service-btn .extra-content.design-adv,
+.service-btn .extra-content.web-dev {
+  background-color: transparent;
+}
+.logo-design {
+  background-color: #55c2eb;
+}
+.web-design {
+  background-color: rgba(85,194,235,0.85);
+}
+.design-adv {
+  background-color: rgba(85,194,235,0.7);
+}
+.web-dev {
+  background-color: rgba(85,194,235,0.55);
+}
+.responsible {
+  background-color: #033a63;
+  color: #fff;
+  display: block;
+  height: auto;
+  margin-top: 20px;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+.responsible img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #6e7379;
+  margin-bottom: 30px;
+}
+.down {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.down .icon-logobt {
+  font-size: 10em;
+  line-height: 0.7em;
+  color: #55c2eb;
+  position: relative;
+}
+.down p {
+  font-size: 1.2em;
+}
 footer {
   background-color: #1d242a;
   color: #fff;
@@ -279,6 +435,81 @@ footer .social li .icon-face {
   .works-home .item-work img {
     width: 100%;
   }
+  .inner-banner {
+    height: 900px;
+  }
+  .inner-banner-text p {
+    width: 75%;
+    font-size: 1.2em;
+  }
+  .inner-banner-text .arrow-down-btn {
+    width: 48px;
+    height: 24px;
+  }
+  .inner-banner-text .arrow-down-btn .icon-flecha {
+    width: 18px;
+    height: 18px;
+  }
+  .service-btn {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .service-btn a {
+    width: 90%;
+  }
+  .service-btn .back-icon {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    font-size: 5em;
+    color: rgba(255,255,255,0.5);
+    z-index: 0;
+  }
+  .service-btn span.icon-mas {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    transform: rotate(0deg);
+  }
+  .service-btn.opened span.icon-mas {
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    right: 12px;
+    top: 10px;
+  }
+  .service-btn h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    width: 20%;
+  }
+  .service-btn p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .service-btn.web-design {
+    background-color: rgba(85,194,235,0.85);
+  }
+  .service-btn.design-adv {
+    background-color: rgba(85,194,235,0.7);
+  }
+  .service-btn.web-dev {
+    background-color: rgba(85,194,235,0.55);
+  }
+  .down {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .down .icon-logobt {
+    font-size: 10em;
+    line-height: 0.7em;
+    color: #55c2eb;
+    position: relative;
+  }
+  .down p {
+    font-size: 1.2em;
+  }
 }
 @media screen and (min-width: 992px) {
   .banner-home .item .inner-element {
@@ -296,6 +527,106 @@ footer .social li .icon-face {
   }
   .item-services .title {
     font-size: 1.4em;
+  }
+  .inner-banner {
+    height: 800px;
+  }
+  .inner-banner.services {
+    background: transparent url("../../images/banner-services-desktop.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .inner-banner-text h1 {
+    font-size: 3em;
+  }
+  .inner-banner-text p {
+    width: 60%;
+    font-size: 1.4em;
+  }
+  .service-btn {
+    height: 175px;
+  }
+  .service-btn a {
+    width: 90%;
+    float: right;
+  }
+  .service-btn a.float-left {
+    float: left;
+  }
+  .service-btn span.icon-mas {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.3s ease;
+    transform: rotate(0deg);
+  }
+  .service-btn.opened span.icon-mas {
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    right: 12px;
+    top: 10px;
+  }
+  .service-btn h2 {
+    width: 150px;
+  }
+  .service-btn p {
+    width: 75%;
+  }
+  .service-btn.web-design {
+    background-color: rgba(85,194,235,0.85);
+  }
+  .service-btn.design-adv {
+    background-color: rgba(85,194,235,0.7);
+  }
+  .service-btn.web-dev {
+    background-color: rgba(85,194,235,0.55);
+  }
+  .down {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .down .icon-logobt {
+    font-size: 10em;
+    line-height: 0.7em;
+    color: #55c2eb;
+    position: relative;
+  }
+  .down p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .inner-banner {
+    height: 800px;
+  }
+  .inner-banner-text h1 {
+    font-size: 3em;
+  }
+  .inner-banner-text p {
+    width: 60%;
+  }
+  .service-btn {
+    height: 250px;
+    padding-top: 30px;
+  }
+  .service-btn .back-icon {
+    font-size: 6em;
+    top: 70px;
+    right: 30px;
+  }
+  .service-btn .icon-mas {
+    font-size: 1.6em;
+  }
+  .service-btn h2 {
+    font-size: 3em;
+    width: 210px;
+  }
+  .service-btn a {
+    width: 520px;
+    position: relative;
+  }
+  .service-btn p {
+    width: 70%;
+    font-size: 1.6em;
   }
 }
 
