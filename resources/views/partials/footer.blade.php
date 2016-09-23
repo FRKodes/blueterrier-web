@@ -20,9 +20,9 @@
 		</div>
 		<div class="col-sm-4">
 			<ul class="social">
-				<li><a href="#" class="blanco icon-face"></a></li>
-				<li><a href="#" class="blanco icon-insta"></a></li>
-				<li><a href="#" class="blanco icon-behance"></a></li>
+				<li><a href="https://www.facebook.com/blueterrier" target="_blank" title="Regálanos un LIKE ;)" class="blanco icon-face"></a></li>
+				<li><a href="https://www.instagram.com/blueterrier/" target="_blank" title="Síguenos en Instagram ;)" class="blanco icon-insta"></a></li>
+				<li><a href="https://www.behance.net/blueterrier" target="_blank" title="Checa nuestro trabajo en Behance" class="blanco icon-behance"></a></li>
 			</ul>
 		</div>
 	</div>

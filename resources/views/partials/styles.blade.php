@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i" rel="stylesheet">
 <link href="{{ elixir('css/all.min.css')}}" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

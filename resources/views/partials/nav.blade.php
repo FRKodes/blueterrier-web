@@ -7,15 +7,15 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand icon-logobt" href="#"></a>
+			<a class="navbar-brand icon-logobt" href="/"></a>
 		</div>
 
 		<div id="navbar" class="navbar-collapse collapse navbar-right">
 			<ul class="nav navbar-nav">
-				<li><a href="#about">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Works</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="/about">About Us</a></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/works">Works</a></li>
+				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>

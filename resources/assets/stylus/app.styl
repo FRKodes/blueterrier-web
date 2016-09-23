@@ -1,7 +1,9 @@
 azul = #55C2EB
+azul2 = #033A63
 negro = #00192E
 negro2 = #1D242A
 blanco = #FFFFFF
+gris0 = #DFDFDF
 gris1 = #6E7379
 .azul
 	color azul
@@ -9,31 +11,41 @@ gris1 = #6E7379
 	color blanco
 .no-margin
 	margin 0 !important
+.back
+	background-color rgba(black, .8) !important
+	transition background-color 1s ease
 body
 	background white
 	font-family 'Ropa Sans', sans-serif
 .navbar-default
 	background transparent
 	border none
+	transition background 1s ease
 	.navbar-nav>li>a
 		color azul
+		font-style italic
+		font-size 1.2em
 	.navbar-brand
 		color azul
 		font-size 3em
 		padding 10px 15px
 		&:hover
 			color white
-			transition color .5s ease
+			transition color .3s ease
 	.navbar-toggle
 		border none
 		&:hover
 			border none
 			background transparent
+		&:focus
+			background none
 		.icon-bar
 			background azul
 			height 3px
 			margin-bottom 6px
 			width 30px
+	.navbar-collapse
+		border none
 .row.banner
 	position relative
 .banner-text
@@ -113,12 +125,47 @@ body
 		background #E81C25
 	.otro
 		background green
+
+/*Services*/
+.item-services
+	margin-bottom 30px
+	margin-top 30px
+	.icon-service
+		font-size 12em
+		line-height .6em
+		text-align center
+	.description
+		font-size 1.1em
+		text-align center
+.services-home-container
+	.slick-dots
+		padding 0
+		text-align center
+		li
+			display inline-block
+			height 10px
+			margin 0 5px
+			width 10px
+			button
+				background-color gris0
+				border none
+				color transparent
+				display block
+				height 100%
+				padding 0
+				transition background-color 1s ease
+				width 100%
+				&:focus
+					outline none
+			&.slick-active button
+				background-color azul2
+				transition background-color 1s ease
 footer
 	background-color negro2
 	color blanco
 	height auto
-	padding-top 30px
 	padding-bottom 30px
+	padding-top 30px
 	.services
 		list-style none
 		padding 0
@@ -191,3 +238,9 @@ footer
 	.banner-text
 		bottom 280px
 		width 80%
+	/*Services*/
+	.item-services
+		.icon-service
+			font-size 8em
+		.title
+			font-size 1.4em

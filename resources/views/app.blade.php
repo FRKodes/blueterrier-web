@@ -9,11 +9,11 @@
         	@include('partials.nav')
     	</header>
     	<section>
-			@include('pages.home')
+			@yield('content')
     	</section>
         <footer>
         	@include('partials.footer')
         </footer>
-        <script href="{{ elixir('js/all.min.js')}}"></script>
+        <script src="{{ elixir('js/all.min.js')}}"></script>
     </body>
 </html>
