@@ -63,4 +63,16 @@ $(document).ready(function(){
 			console.log(extra_content);
 		});
 	};
+
+	if (window_width >= 992) {
+		console.log('> 992px');
+		$('.service-btn a').on('click', function(){
+			var extra_content = $(this).attr('data-open');
+			$('.service-btn').addClass('magictime vanishOut height-0');
+			// $(this).parent().toggleClass('p-bottom-0')
+			$('.main-info-container').removeClass('hidden');
+			$('.extra-content.' + extra_content).appendTo('.main-info-container');
+			$('.extra-content.' + extra_content).removeClass('hidden');
+		});
+	};
 });

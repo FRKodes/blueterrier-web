@@ -121,13 +121,12 @@
 		</div>
 	</div>
 	
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="main-info-container">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quas atque, distinctio quidem! Cumque quam architecto, libero est non sit ipsam quaerat soluta tenetur. Ex obcaecati, quas nobis ipsa rerum.
-			</div>
+			<div class="col-sm-10col-sm-offset-1 main-info-container hidden"></div>
 		</div>
 	</div>
+
 	<div class="container down">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
