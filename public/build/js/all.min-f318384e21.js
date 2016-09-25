@@ -97,13 +97,33 @@ $(document).ready(function(){
 
 	if (window_width >= 992) {
 		console.log('> 992px');
-		$('.service-btn a').on('click', function(){
+		$('.open-extra-info, .menu-bottom-services a').on('click', function(){
+			console.log('clicked!');
 			var extra_content = $(this).attr('data-open');
-			$('.service-btn').addClass('magictime vanishOut height-0');
-			// $(this).parent().toggleClass('p-bottom-0')
-			$('.main-info-container').removeClass('hidden');
-			$('.extra-content.' + extra_content).appendTo('.main-info-container');
-			$('.extra-content.' + extra_content).removeClass('hidden');
+			var bastard = $('.main-info-container.' + extra_content);
+			if (bastard.hasClass('modified')) {
+				
+				console.log('quitar estas clases: height-0');
+				console.log(extra_content);
+
+				$('.main-info-container').addClass('hidden');
+				$('.service-btn.' + extra_content).removeClass('magictime vanishOut height-0');
+				$('.main-info-container.' + extra_content + ', .menu-bottom-services li').removeClass('hidden');
+				$('.menu-bottom-services .' + extra_content).addClass('hidden');
+			}else{
+				$('.open-extra-info').addClass('inactive');
+				$('.back-icon, .icon-mas').addClass('hidden');
+				$('.service-btn').addClass('magictime vanishOut height-0');
+				$('.service-btn a').addClass('width-all');
+				$('.main-info-container').addClass('hidden');
+				$('.main-info-container.' + extra_content + ', .menu-bottom-services, .menu, .menu-bottom-services li').removeClass('hidden');
+				$('.extra-content').removeClass('row');
+				$('.main-info-container.' + extra_content).html('<span class="icon-'+ extra_content +'"></span>').addClass('modified');
+				$('.service-btn.' + extra_content).removeClass('row opened magictime vanishOut height-0 col-md-6').addClass('col-md-7 col-md-offset-1 height-auto').appendTo('.main-info-container.' + extra_content);
+				$('.extra-content.' + extra_content + ' p.blanco').appendTo('.service-btn.' + extra_content + ' a');
+				$('.extra-content.' + extra_content).appendTo('.main-info-container.' + extra_content).removeClass('hidden');
+				$('.menu-bottom-services .' + extra_content).addClass('hidden');
+			}		
 		});
 	};
 });

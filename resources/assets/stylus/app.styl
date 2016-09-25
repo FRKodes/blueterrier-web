@@ -18,11 +18,18 @@ gris1 = #6E7379
 .height-0
 	height 0px !important
 	padding 0 !important
+.height-auto
+	height auto !important
+.width-all
+	width 100% !important
 .margin-sides-15
 	margin-left 15px
 	margin-right 15px
 .no-margin
 	margin 0 !important
+.inactive
+	pointer-events none
+	cursor default
 .back
 	background-color rgba(black, .8) !important
 	transition background-color 1s ease
@@ -468,6 +475,9 @@ footer
 			width 150px
 		p
 			width 75%
+		&.height-auto
+			p
+				width 100%
 		&.web-design
 			background-color rgba(azul, .85)
 		&.design-adv
@@ -484,6 +494,44 @@ footer
 			position relative
 		p
 			font-size 1.2em
+	.main-info-container
+		position relative
+		margin-top -2px
+		.service-btn
+			background transparent
+	.icon-logo-design
+	.icon-web-design
+	.icon-design-adv
+	.icon-web-dev
+		color rgba(blanco, .6)
+		display block
+		font-size 10em
+		position absolute
+		right 15%
+		top 40px
+	.menu-bottom-services
+		padding 0
+		background-color gris0
+		text-align center
+		li
+			display inline-block
+			margin-right -5px
+			a
+				color blanco
+				display block
+				position relative
+				padding 15px 20px
+			.icon-mas
+				margin-left 45px
+			&.logo-design
+				background-color azul
+			&.web-design
+				background-color rgba(azul, .85)
+			&.design-adv
+				background-color rgba(azul, .70)
+			&.web-dev
+				background-color rgba(azul, .55)
+			
 @media screen and (min-width: 1200px)
 	/*SERVICES*/
 	.inner-banner

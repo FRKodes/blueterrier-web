@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-	<div class="container-fluid">
+	<div class="container-fluid" style="overflow: hidden;">
 		<div class="row inner-banner services">
 			<div class="col-xs-12 inner-banner-text">
 				<h1>Lleguemos a la cima</h1>
@@ -12,7 +12,7 @@
 		
 		<div class="row">
 			<div class="col-md-6 service-btn logo-design">
-				<a href="#open-logo-design" class="white" data-open="logo-design">
+				<a href="#open-logo-design" class="open-extra-info white" data-open="logo-design">
 					<span class="back-icon icon-log hidden-xs"></span>
 					<span class="icon-mas"></span>
 					<h2>Logo Design</h2>
@@ -39,7 +39,7 @@
 
 
 			<div class="col-md-6 service-btn web-design">
-				<a href="#open-web-design" class="white float-left" data-open="web-design">
+				<a href="#open-web-design" class="open-extra-info white float-left" data-open="web-design">
 					<span class="back-icon icon-webdesign hidden-xs"></span>
 					<span class="icon-mas"></span>
 					<h2>Web Design</h2>
@@ -67,7 +67,7 @@
 
 
 			<div class="col-md-6 service-btn design-adv">
-				<a href="#open-design-adv" class="white" data-open="design-adv">
+				<a href="#open-design-adv" class="open-extra-info white" data-open="design-adv">
 					<span class="back-icon icon-advertising hidden-xs"></span>
 					<span class="icon-mas"></span>
 					<h2>Design &amp; advertising</h2>
@@ -95,7 +95,7 @@
 
 
 			<div class="col-md-6 service-btn web-dev">
-				<a href="#open-web-dev" class="white float-left" data-open="web-dev">
+				<a href="#open-web-dev" class="open-extra-info white float-left" data-open="web-dev">
 					<span class="back-icon icon-outsourcing hidden-xs"></span>
 					<span class="icon-mas"></span>
 					<h2>Web Development</h2>
@@ -123,7 +123,18 @@
 	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-10col-sm-offset-1 main-info-container hidden"></div>
+			<div class="main-info-container logo-design hidden"></div>
+			<div class="main-info-container web-design hidden"></div>
+			<div class="main-info-container design-adv hidden"></div>
+			<div class="main-info-container web-dev hidden"></div>
+		</div>
+		<div class="row">
+			<ul class="menu-bottom-services hidden">
+				<li class="logo-design"><a href="#open-logo-design" data-open="logo-design">LOGO DESIGN <span class="icon-mas menu"></span></a></li>
+				<li class="web-design"><a href="#open-web-design" data-open="web-design">WEB DESIGN <span class="icon-mas menu"></span></a></li>
+				<li class="design-adv"><a href="#open-design-adv" data-open="design-adv">DESIGN &AMP; ADVERTISING <span class="icon-mas menu"></span></a></li>
+				<li class="web-dev"><a href="#open-web-dev" data-open="web-dev">DEVELOPMENT <span class="icon-mas menu"></span></a></li>
+			</ul>
 		</div>
 	</div>
 

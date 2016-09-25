@@ -45,6 +45,9 @@
 .icon-advertising:before {
   content: "\61";
 }
+.icon-design-adv:before {
+  content: "\61";
+}
 .icon-behance:before {
   content: "\62";
 }
@@ -60,6 +63,9 @@
 .icon-log:before {
   content: "\66";
 }
+.icon-logo-design:before {
+  content: "\66";
+}
 .icon-logobt:before {
   content: "\67";
 }
@@ -69,10 +75,15 @@
 .icon-outsourcing:before {
   content: "\69";
 }
+.icon-web-dev:before {
+  content: "\69";
+}
 .icon-webdesign:before {
   content: "\6a";
 }
-
+.icon-web-design:before {
+  content: "\6a";
+}
 /* Slider */
 .slick-slider {position: relative; display: block; box-sizing: border-box; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; -khtml-user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 .slick-list {position: relative; display: block; overflow: hidden; margin: 0; padding: 0; }
@@ -112,12 +123,22 @@
   height: 0px !important;
   padding: 0 !important;
 }
+.height-auto {
+  height: auto !important;
+}
+.width-all {
+  width: 100% !important;
+}
 .margin-sides-15 {
   margin-left: 15px;
   margin-right: 15px;
 }
 .no-margin {
   margin: 0 !important;
+}
+.inactive {
+  pointer-events: none;
+  cursor: default;
 }
 .back {
   background-color: rgba(0,0,0,0.8) !important;
@@ -672,6 +693,9 @@ footer .social li .icon-face {
   .service-btn p {
     width: 75%;
   }
+  .service-btn.height-auto p {
+    width: 100%;
+  }
   .service-btn.web-design {
     background-color: rgba(85,194,235,0.85);
   }
@@ -693,6 +717,54 @@ footer .social li .icon-face {
   }
   .down p {
     font-size: 1.2em;
+  }
+  .main-info-container {
+    position: relative;
+    margin-top: -2px;
+  }
+  .main-info-container .service-btn {
+    background: transparent;
+  }
+  .icon-logo-design,
+  .icon-web-design,
+  .icon-design-adv,
+  .icon-web-dev {
+    color: rgba(255,255,255,0.6);
+    display: block;
+    font-size: 10em;
+    position: absolute;
+    right: 15%;
+    top: 40px;
+  }
+  .menu-bottom-services {
+    padding: 0;
+    background-color: #dfdfdf;
+    text-align: center;
+  }
+  .menu-bottom-services li {
+    display: inline-block;
+    margin-right: -5px;
+  }
+  .menu-bottom-services li a {
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 15px 20px;
+  }
+  .menu-bottom-services li .icon-mas {
+    margin-left: 45px;
+  }
+  .menu-bottom-services li.logo-design {
+    background-color: #55c2eb;
+  }
+  .menu-bottom-services li.web-design {
+    background-color: rgba(85,194,235,0.85);
+  }
+  .menu-bottom-services li.design-adv {
+    background-color: rgba(85,194,235,0.7);
+  }
+  .menu-bottom-services li.web-dev {
+    background-color: rgba(85,194,235,0.55);
   }
 }
 @media screen and (min-width: 1200px) {

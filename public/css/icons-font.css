@@ -40,6 +40,9 @@
 .icon-advertising:before {
   content: "\61";
 }
+.icon-design-adv:before {
+  content: "\61";
+}
 .icon-behance:before {
   content: "\62";
 }
@@ -55,6 +58,9 @@
 .icon-log:before {
   content: "\66";
 }
+.icon-logo-design:before {
+  content: "\66";
+}
 .icon-logobt:before {
   content: "\67";
 }
@@ -64,6 +70,12 @@
 .icon-outsourcing:before {
   content: "\69";
 }
+.icon-web-dev:before {
+  content: "\69";
+}
 .icon-webdesign:before {
+  content: "\6a";
+}
+.icon-web-design:before {
   content: "\6a";
 }
