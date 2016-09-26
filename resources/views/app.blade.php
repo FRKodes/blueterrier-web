@@ -15,5 +15,7 @@
         	@include('partials.footer')
         </footer>
         <script src="{{ elixir('js/all.min.js')}}"></script>
+        @yield('maps')
+        @include('partials.google')
     </body>
 </html>

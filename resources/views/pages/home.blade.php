@@ -16,10 +16,12 @@
 
 	<div class="container">
 		<div class="row works-home">
-			<div class="item-work kamado"><img src="/images/kamado.png" alt="kamado" class="wood"></div>
-			<div class="item-work agua-maldita"><img src="/images/agua-maldita-project.png" alt="agua maldita project" class=""></div>
-			{{-- <div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
-			<div class="item-work otro hidden-xs"><img src="/images/kamado.png" alt="kamado"></div> --}}
+			<div class="col-xs-12">
+				<div class="item-work kamado"><img src="/images/kamado.png" alt="kamado" class="wood"></div>
+				<div class="item-work agua-maldita"><img src="/images/agua-maldita-project.png" alt="agua maldita project" class=""></div>
+				{{-- <div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
+				<div class="item-work otro hidden-xs"><img src="/images/kamado.png" alt="kamado"></div> --}}
+			</div>
 		</div>
 	</div>
 

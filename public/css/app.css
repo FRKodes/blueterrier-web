@@ -8,6 +8,13 @@
 .gris1 {
   color: #6e7379;
 }
+.back-blue {
+  background-color: #55c2eb;
+}
+.back-blue.blanco {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 .p-bottom-0 {
   padding-bottom: 0px !important;
 }
@@ -44,6 +51,7 @@
 body {
   background: #fff;
   font-family: 'Ropa Sans', sans-serif;
+  color: #6e7379;
 }
 .navbar-default {
   background: transparent;
@@ -156,6 +164,9 @@ body {
   display: block;
   margin-right: -35%;
 }
+.works-home {
+  background: #1d242a;
+}
 .works-home .item-work {
   height: auto;
   overflow-x: hidden;
@@ -237,6 +248,24 @@ margin-left -5% .otro {
   background-size: 768px;
   height: 500px;
   margin-bottom: 40px;
+}
+.inner-banner.about {
+  background: #000 url("../../images/banner-about-mobile.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.inner-banner.about img {
+  width: 60%;
+  height: auto;
+  position: relative;
+  bottom: 40px;
 }
 .inner-banner-text {
   position: absolute;
@@ -379,6 +408,16 @@ margin-left -5% .otro {
   background-size: 768px;
   height: 450px;
 }
+.inner-banner-detail.kamado {
+  background: #000 url("../../images/kamado.jpg") no-repeat center bottom;
+  background-size: 768px;
+  height: 450px;
+}
+.inner-banner-detail.boreal {
+  background: #000 url("../../images/boreal.jpg") no-repeat center bottom;
+  background-size: 600px;
+  height: 350px;
+}
 .project-info {
   text-align: center;
   margin-bottom: 30px;
@@ -395,6 +434,75 @@ margin-left -5% .otro {
 .item-detail img.bottle {
   width: 40%;
   display: inline-block;
+}
+.container.about h1,
+.container.contact h1 {
+  font-size: 5em;
+}
+.slogan {
+  margin-bottom: 40px;
+}
+#map {
+  width: 100%;
+  display: block;
+  height: 400px;
+}
+#contactForm {
+  position: relative;
+}
+.form-control {
+  border-radius: 0px;
+  border-bottom: 1px solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+.form-control:focus {
+  outline: none;
+  border-color: rgba(255,255,255,0.7);
+  box-shadow: none;
+}
+textarea {
+  resize: none;
+  height: 80px !important;
+}
+.form-group.error .form-control {
+  border-color: rgba(255,0,0,0.9);
+}
+.alert-danger {
+  background: transparent;
+  text-align: center;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.alert-danger.hidden-item {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.btn.btn-primary {
+  background: #1d242a;
+  color: #fff;
+  border: #1d242a;
+  border-radius: 0;
+  width: 40%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.sent_mail_alert {
+  background: rgba(29,36,42,0.9);
+  color: #fff;
+  display: none;
+  font-size: 1.2em;
+  padding: 30px 40px;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+.sent_mail_alert span {
+  font-size: 1.6em;
 }
 footer {
   background-color: #1d242a;
@@ -453,6 +561,11 @@ footer .social li .icon-face {
   }
 }
 @media screen and (min-width: 768px) {
+  .back-blue.blanco {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+  }
   .navbar-default .navbar-brand {
     padding: 6px 15px;
     font-size: 2.8em;
@@ -477,7 +590,17 @@ footer .social li .icon-face {
     width: 75%;
   }
   .banner-text h2 {
-    font-size: 1.6em;
+    font-size: 2.4em;
+  }
+  .banner-text p {
+    font-size: 1.3em;
+  }
+  .btn-container {
+    width: 300px;
+  }
+  .btn-container .btn-bt {
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .works-home {
     text-align: center;
@@ -491,6 +614,15 @@ footer .social li .icon-face {
   }
   .inner-banner {
     height: 900px;
+  }
+  .inner-banner.about {
+    background: #000 url("../../images/banner-about-desktop.jpg") no-repeat center bottom;
+    background-size: cover;
+    height: 570px;
+  }
+  .inner-banner.about img {
+    width: 320px;
+    bottom: 20px;
   }
   .inner-banner-text p {
     width: 75%;
@@ -570,6 +702,13 @@ footer .social li .icon-face {
   .item-detail img.bottle {
     width: 20%;
   }
+  .container.about p,
+  .container.contact p {
+    font-size: 1.1em;
+  }
+  #map {
+    height: 500px;
+  }
 }
 @media screen and (min-width: 992px) {
   .banner-home .item .inner-element {
@@ -579,8 +718,14 @@ footer .social li .icon-face {
     width: 100%;
   }
   .banner-text {
-    bottom: 280px;
-    width: 80%;
+    bottom: 240px;
+    width: 640px;
+  }
+  .banner-text h2 {
+    font-size: 3em;
+  }
+  .banner-text p {
+    font-size: 1.6em;
   }
   .item-services .icon-service {
     font-size: 8em;
@@ -720,6 +865,10 @@ footer .social li .icon-face {
   .project-info p {
     font-size: 1.3em;
   }
+  .container.about p,
+  .container.contact p {
+    font-size: 1.2em;
+  }
 }
 @media screen and (min-width: 1200px) {
   .inner-banner {
@@ -754,6 +903,9 @@ footer .social li .icon-face {
   .service-btn p {
     width: 70%;
     font-size: 1.6em;
+  }
+  #map {
+    height: 600px;
   }
 }
 

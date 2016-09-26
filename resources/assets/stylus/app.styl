@@ -13,6 +13,11 @@ gris1 = #6E7379
 	color blanco
 .gris1
 	color gris1
+.back-blue
+	background-color azul
+.back-blue.blanco
+	padding-bottom 30px
+	padding-top 30px
 .p-bottom-0
 	padding-bottom 0px !important
 .height-0
@@ -40,6 +45,7 @@ gris1 = #6E7379
 body
 	background white
 	font-family 'Ropa Sans', sans-serif
+	color gris1
 .navbar-default
 	background transparent
 	border none
@@ -130,6 +136,7 @@ body
 		display block
 		margin-right -35%
 .works-home
+	background negro2
 	.item-work
 		height auto
 		overflow-x hidden
@@ -198,6 +205,19 @@ body
 		background-size 768px
 		height 500px
 		margin-bottom 40px
+	&.about
+		background black url(../../images/banner-about-mobile.jpg) no-repeat center bottom
+		background-size cover
+		height 500px
+		margin-bottom 10px
+		display flex
+		align-items flex-end
+		justify-content center
+		img
+			width 60%
+			height auto
+			position relative
+			bottom 40px
 .inner-banner-text
 	position absolute
 	bottom 10px
@@ -311,6 +331,14 @@ body
 		background black url(../../images/agua-maldita-banner.jpg) no-repeat center bottom
 		background-size 768px
 		height 450px
+	&.kamado
+		background black url(../../images/kamado.jpg) no-repeat center bottom
+		background-size 768px
+		height 450px
+	&.boreal
+		background black url(../../images/boreal.jpg) no-repeat center bottom
+		background-size 600px
+		height 350px
 .project-info
 	text-align center
 	margin-bottom 30px
@@ -324,6 +352,64 @@ body
 		&.bottle
 			width 40%
 			display inline-block
+.container.about
+.container.contact
+	h1
+		font-size 5em
+.slogan
+	margin-bottom 40px
+#map
+	width 100%
+	display block
+	height 400px
+#contactForm
+	position relative
+.form-control
+	border-radius 0px
+	border-bottom 1px solid white
+	border-top none
+	border-left none
+	border-right none
+	background transparent
+	box-shadow none
+	color blanco
+	&:focus
+		outline none
+		border-color rgba(white, .7)
+		box-shadow none
+textarea
+	resize none
+	height 80px !important
+.form-group.error
+	.form-control
+		border-color rgba(red, .9)
+.alert-danger
+	background transparent
+	text-align center
+	opacity 1
+	transition all .5s ease
+	&.hidden-item
+		opacity 0
+		transition all .5s ease
+.btn.btn-primary
+	background negro2
+	color blanco
+	border negro2
+	border-radius 0
+	width 40%
+	margin 0 auto
+	display inline-block
+.sent_mail_alert
+	background rgba(negro2, .9)
+	color blanco
+	display none
+	font-size 1.2em
+	padding 30px 40px
+	position absolute
+	top 60px
+	width 100%
+	span
+		font-size 1.6em
 footer
 	background-color negro2
 	color blanco
@@ -366,6 +452,10 @@ footer
 			.inner-element
 				width 220px
 @media screen and (min-width: 768px)
+	.back-blue.blanco
+		padding-bottom 50px
+		padding-top 50px
+		margin-top 20px
 	.navbar-default
 		.navbar-brand
 			padding 6px 15px
@@ -386,7 +476,13 @@ footer
 		padding-right 30px
 		width 75%
 		h2
-			font-size 1.6em
+			font-size 2.4em
+		p
+			font-size 1.3em
+	.btn-container
+		width 300px
+		.btn-bt
+			justify-content center
 	.works-home
 		text-align center
 		.item-work
@@ -397,6 +493,13 @@ footer
 	/*SERVICES*/
 	.inner-banner
 		height 900px
+		&.about
+			background black url(../../images/banner-about-desktop.jpg) no-repeat center bottom
+			background-size cover
+			height 570px
+			img
+				width 320px
+				bottom 20px
 	.inner-banner-text
 		p
 			width 75%
@@ -461,6 +564,12 @@ footer
 		img
 			&.bottle
 				width 20%
+	.container.about
+	.container.contact
+		p
+			font-size 1.1em
+	#map
+		height 500px
 @media screen and (min-width: 992px)
 	.banner-home
 		1177px
@@ -471,8 +580,12 @@ footer
 				img
 					width 100%
 	.banner-text
-		bottom 280px
-		width 80%
+		bottom 240px
+		width 640px
+		h2
+			font-size 3em
+		p
+			font-size 1.6em
 	/*Services home*/
 	.item-services
 		.icon-service
@@ -584,6 +697,10 @@ footer
 			font-size 4em
 		p
 			font-size 1.3em
+	.container.about
+	.container.contact
+		p
+			font-size 1.2em
 @media screen and (min-width: 1200px)
 	/*SERVICES*/
 	.inner-banner
@@ -611,3 +728,5 @@ footer
 		p
 			width 70%
 			font-size 1.6em
+	#map
+		height 600px

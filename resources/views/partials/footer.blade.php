@@ -12,10 +12,10 @@
 		<div class="col-sm-4">
 			<p class="azul">Our services</p>
 			<ul class="services">
-				<li><span class="icon-flecha azul"></span><a class="blanco" href="#">Logo Design</a></li>
-				<li><span class="icon-flecha azul"></span><a class="blanco" href="#">Design and Advertising</a></li>
-				<li><span class="icon-flecha azul"></span><a class="blanco" href="#">Web Design</a></li>
-				<li><span class="icon-flecha azul"></span><a class="blanco" href="#">Web Development</a></li>
+				<li><span class="icon-flecha azul"></span><a class="blanco" href="/services">Logo Design</a></li>
+				<li><span class="icon-flecha azul"></span><a class="blanco" href="/services">Design and Advertising</a></li>
+				<li><span class="icon-flecha azul"></span><a class="blanco" href="/services">Web Design</a></li>
+				<li><span class="icon-flecha azul"></span><a class="blanco" href="/services">Web Development</a></li>
 			</ul>
 		</div>
 		<div class="col-sm-4">

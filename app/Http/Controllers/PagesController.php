@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Mail;
 use App\Http\Requests;
 
 class PagesController extends Controller
@@ -39,4 +39,20 @@ class PagesController extends Controller
         return View('projects.agua-maldita');
     }
 
+    public function kamado()
+    {
+        return View('projects.kamado');
+    }
+
+    public function boreal()
+    {
+        return View('projects.boreal');
+    }
+
+    public function sendmail()
+    {
+        Mail::send('emails.contact', [], function($message){
+            $message->to('frkalderon@gmail.com')->subject('Contact from Blue Terrier');
+        });        
+    }
 }
