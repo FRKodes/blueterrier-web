@@ -193,6 +193,11 @@ body
 	&.services
 		background transparent url(../../images/banner-services-mobile.jpg) no-repeat center center
 		background-size cover
+	&.works
+		background black url(../../images/agua-maldita-banner.jpg) no-repeat center bottom
+		background-size 768px
+		height 500px
+		margin-bottom 40px
 .inner-banner-text
 	position absolute
 	bottom 10px
@@ -267,7 +272,7 @@ body
 .web-dev
 	background-color rgba(azul, .55)
 .responsible
-	background-color azul2
+	background-color negro2
 	color blanco
 	display block
 	height auto
@@ -295,6 +300,30 @@ body
 		position relative
 	p
 		font-size 1.2em
+.works-item
+	margin-bottom 40px
+	img
+		width 100%
+		height auto
+		display block
+.inner-banner-detail
+	&.agua-maldita
+		background black url(../../images/agua-maldita-banner.jpg) no-repeat center bottom
+		background-size 768px
+		height 450px
+.project-info
+	text-align center
+	margin-bottom 30px
+.item-detail
+	text-align center
+	img
+		width 100%
+		height auto
+		display block
+		margin-bottom 40px
+		&.bottle
+			width 40%
+			display inline-block
 footer
 	background-color negro2
 	color blanco
@@ -337,6 +366,10 @@ footer
 			.inner-element
 				width 220px
 @media screen and (min-width: 768px)
+	.navbar-default
+		.navbar-brand
+			padding 6px 15px
+			font-size 2.8em
 	.banner-home
 		height 1018px
 		.item
@@ -422,6 +455,12 @@ footer
 			position relative
 		p
 			font-size 1.2em
+	.project-info
+		text-align left
+	.item-detail
+		img
+			&.bottle
+				width 20%
 @media screen and (min-width: 992px)
 	.banner-home
 		1177px
@@ -446,6 +485,10 @@ footer
 		&.services
 			background transparent url(../../images/banner-services-desktop.jpg) no-repeat center center
 			background-size cover
+		&.works
+			background black url(../../images/agua-maldita-banner.jpg) no-repeat center bottom
+			background-size 1024px
+			height 600px
 	.inner-banner-text
 		h1
 			font-size 3em
@@ -531,7 +574,16 @@ footer
 				background-color rgba(azul, .70)
 			&.web-dev
 				background-color rgba(azul, .55)
-			
+	.inner-banner-detail
+		&.agua-maldita
+			background black url(../../images/agua-maldita-banner.jpg) no-repeat center bottom
+			background-size 1100px
+			height 600px
+	.project-info
+		h1
+			font-size 4em
+		p
+			font-size 1.3em
 @media screen and (min-width: 1200px)
 	/*SERVICES*/
 	.inner-banner

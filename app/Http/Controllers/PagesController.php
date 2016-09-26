@@ -34,4 +34,9 @@ class PagesController extends Controller
     	return View('pages.contact');
     }
 
+    public function aguamaldita()
+    {
+        return View('projects.agua-maldita');
+    }
+
 }

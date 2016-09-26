@@ -232,6 +232,12 @@ margin-left -5% .otro {
   background: transparent url("../../images/banner-services-mobile.jpg") no-repeat center center;
   background-size: cover;
 }
+.inner-banner.works {
+  background: #000 url("../../images/agua-maldita-banner.jpg") no-repeat center bottom;
+  background-size: 768px;
+  height: 500px;
+  margin-bottom: 40px;
+}
 .inner-banner-text {
   position: absolute;
   bottom: 10px;
@@ -327,7 +333,7 @@ margin-left -5% .otro {
   background-color: rgba(85,194,235,0.55);
 }
 .responsible {
-  background-color: #033a63;
+  background-color: #1d242a;
   color: #fff;
   display: block;
   height: auto;
@@ -359,6 +365,36 @@ margin-left -5% .otro {
 }
 .down p {
   font-size: 1.2em;
+}
+.works-item {
+  margin-bottom: 40px;
+}
+.works-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.inner-banner-detail.agua-maldita {
+  background: #000 url("../../images/agua-maldita-banner.jpg") no-repeat center bottom;
+  background-size: 768px;
+  height: 450px;
+}
+.project-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.item-detail {
+  text-align: center;
+}
+.item-detail img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+.item-detail img.bottle {
+  width: 40%;
+  display: inline-block;
 }
 footer {
   background-color: #1d242a;
@@ -417,6 +453,10 @@ footer .social li .icon-face {
   }
 }
 @media screen and (min-width: 768px) {
+  .navbar-default .navbar-brand {
+    padding: 6px 15px;
+    font-size: 2.8em;
+  }
   .banner-home {
     height: 1018px;
   }
@@ -524,6 +564,12 @@ footer .social li .icon-face {
   .down p {
     font-size: 1.2em;
   }
+  .project-info {
+    text-align: left;
+  }
+  .item-detail img.bottle {
+    width: 20%;
+  }
 }
 @media screen and (min-width: 992px) {
   .banner-home .item .inner-element {
@@ -548,6 +594,11 @@ footer .social li .icon-face {
   .inner-banner.services {
     background: transparent url("../../images/banner-services-desktop.jpg") no-repeat center center;
     background-size: cover;
+  }
+  .inner-banner.works {
+    background: #000 url("../../images/agua-maldita-banner.jpg") no-repeat center bottom;
+    background-size: 1024px;
+    height: 600px;
   }
   .inner-banner-text h1 {
     font-size: 3em;
@@ -657,6 +708,17 @@ footer .social li .icon-face {
   }
   .menu-bottom-services li.web-dev {
     background-color: rgba(85,194,235,0.55);
+  }
+  .inner-banner-detail.agua-maldita {
+    background: #000 url("../../images/agua-maldita-banner.jpg") no-repeat center bottom;
+    background-size: 1100px;
+    height: 600px;
+  }
+  .project-info h1 {
+    font-size: 4em;
+  }
+  .project-info p {
+    font-size: 1.3em;
   }
 }
 @media screen and (min-width: 1200px) {

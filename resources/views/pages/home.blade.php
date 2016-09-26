@@ -37,7 +37,7 @@
 				<div class="item-services col-sm-6 col-md-3">
 					<div class="icon-service icon-webdesign"></div>
 					<h2 class="title text-center azul">WEB DESIGN</h2>
-					<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur officiis alias aut eius dolores nulla et quis illo eaque necessitatibus dolorum cumque error.</div>
+					<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur officiis alias aut eius dolores.</div>
 				</div>
 				<div class="item-services col-sm-6 col-md-3">
 					<div class="icon-service icon-log"></div>

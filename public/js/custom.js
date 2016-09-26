@@ -23,8 +23,8 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplaySpeed: 5000,
 		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToShow: 4,
+		slidesToScroll: 4,
 		responsive: [
 			{
 				breakpoint: 1200,

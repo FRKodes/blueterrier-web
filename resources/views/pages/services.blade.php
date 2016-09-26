@@ -25,7 +25,7 @@
 
 					<div class="responsible">
 						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/" alt=""></div>
+							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
 							<p class="responsible-description">
 								Construir la parte gráfica de una marca es una labor apasionante. Hay que investigar reunir un conjunto de historias, recuerdos y expectativas que en conjunto definan la decisión de los consumidores a elegir tu producto. <br><br>
 								En constante búsqueda de inspiración y siempre al tanto de las tendencias y prácticas en las artes visuales. Con múltiples proyectos de branding a su cargo. <br><br>
@@ -52,7 +52,7 @@
 
 					<div class="responsible">
 						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/" alt=""></div>
+							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
 							<p class="responsible-description">
 								Poner en su lugar a los píxeles, imágenes, archivos CSS, HTML, Bases de datos y demás elementos que conforman tu sitio web no es tarea fácil, se requiere de un carácter fuerte y organizado para lograrlo. <br><br>
 								Más de 8 años desarrollando para web lo respaldan. Siempre buscando las mejores prácticas para desarrollar tu proyecto de una manera mejor y más rápida. <br><br>
@@ -80,7 +80,7 @@
 
 					<div class="responsible">
 						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/" alt=""></div>
+							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
 							<p class="responsible-description">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore fugiat assumenda, eligendi praesentium provident atque, illo natus error porro voluptatum, molestiae debitis beatae aliquam sapiente omnis impedit sit nulla sequi. <br><br>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore fugiat assumenda, eligendi praesentium provident atque, illo natus error porro voluptatum, molestiae debitis beatae aliquam sapiente omnis impedit sit nulla sequi. <br><br>
@@ -108,7 +108,7 @@
 
 					<div class="responsible">
 						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/" alt=""></div>
+							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
 							<p class="responsible-description">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis cumque quo eos error repellendus possimus recusandae, laudantium tenetur accusamus dolorum aperiam perferendis in magnam beatae esse illum autem officia. <br><br>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quis nam temporibus quasi delectus suscipit provident deserunt nihil doloremque, molestias esse dolorem id porro consectetur sapiente, fugiat obcaecati. Rem, nesciunt. <br><br>
