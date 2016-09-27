@@ -137,24 +137,29 @@ body
 		margin-right -35%
 .works-home
 	background negro2
+	.works-container
+		display flex
+		align-items center
+		flex-direction column
 	.item-work
 		height auto
 		overflow-x hidden
 		text-align center
+		flex-grow 2
 		width 100%
 		img
 			display block
 			height auto
 			width 110%
     		margin-left -5%
-	.kamado
-		background-color beige
-	.agua-maldita
-		background black
-	.boreal
-		background #E81C25
-	.otro
-		background green
+.kamado
+	background beige
+.agua-maldita
+	background black
+.boreal
+	background #E81C25
+.otro
+	background beige
 
 /*Services*/
 .item-services
@@ -485,6 +490,8 @@ footer
 			justify-content center
 	.works-home
 		text-align center
+		.works-container
+			flex-direction row
 		.item-work
 			width 50%
 			float left

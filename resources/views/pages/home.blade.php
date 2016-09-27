@@ -7,20 +7,22 @@
 				<div class="item pistones"><div class="inner-element"><img src="/images/cocinero-pistones-banner.png" alt=""></div></div>
 			</div>
 			<div class="banner-text">
-				<h2 class=""><span>Nos apasiona lo que hacemos, amamos la calidad.</span></h2>
-				<p>Nuestra pasión por el trabajo que realizamos lo enfocamos en un sólo objetivo: ¡TU ÉXITO!</p>
+				<h2 class=""><span>We are passionate with we do, we love quality.</span></h2>
+				<p>Focusing our passion for our work in one objective: YOUR SUCCESS! </p>
 				<a href="/contact" class="text-center btn-container no-margin" title="Contact Us, hit us an email."><span class="btn-bt">Contact Us</span><span class="icon-flecha link"></span></a>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row works-home">
-			<div class="col-xs-12">
-				<div class="item-work kamado"><img src="/images/kamado.png" alt="kamado" class="wood"></div>
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 works-container">
+				<div class="item-work otro"><img src="/images/kamado.png" alt="kamado" class="wood"></div>
 				<div class="item-work agua-maldita"><img src="/images/agua-maldita-project.png" alt="agua maldita project" class=""></div>
-				{{-- <div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
-				<div class="item-work otro hidden-xs"><img src="/images/kamado.png" alt="kamado"></div> --}}
+			</div>
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 works-container">
+				<div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
+				<div class="item-work otro hidden-xs"><img src="/images/kamado.png" alt="kamado"></div>
 			</div>
 		</div>
 	</div>
@@ -39,7 +41,7 @@
 				<div class="item-services col-sm-6 col-md-3">
 					<div class="icon-service icon-webdesign"></div>
 					<h2 class="title text-center azul">WEB DESIGN</h2>
-					<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur officiis alias aut eius dolores.</div>
+					<div class="description">We love to collaborate with another creative minds. Do you need help for a big project? We hadle it!</div>
 				</div>
 				<div class="item-services col-sm-6 col-md-3">
 					<div class="icon-service icon-log"></div>
