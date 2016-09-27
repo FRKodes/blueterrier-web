@@ -16,11 +16,11 @@
 
 	<div class="container-fluid">
 		<div class="row works-home">
-			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 works-container">
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 works-container">
 				<div class="item-work otro"><img src="/images/kamado.png" alt="kamado" class="wood"></div>
 				<div class="item-work agua-maldita"><img src="/images/agua-maldita-project.png" alt="agua maldita project" class=""></div>
 			</div>
-			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 works-container">
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 works-container">
 				<div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
 				<div class="item-work otro hidden-xs"><img src="/images/kamado.png" alt="kamado"></div>
 			</div>
