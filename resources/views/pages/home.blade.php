@@ -7,7 +7,7 @@
 				<div class="item pistones"><div class="inner-element"><img src="/images/cocinero-pistones-banner.png" alt=""></div></div>
 			</div>
 			<div class="banner-text">
-				<h2 class=""><span>We are passionate with we do, we love quality.</span></h2>
+				<h2 class=""><span>We are passionate about we do, we love quality.</span></h2>
 				<p>Focusing our passion for our work in one objective: YOUR SUCCESS! </p>
 				<a href="/contact" class="text-center btn-container no-margin" title="Contact Us, hit us an email."><span class="btn-bt">Contact Us</span><span class="icon-flecha link"></span></a>
 			</div>
