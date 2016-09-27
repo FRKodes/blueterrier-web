@@ -57,7 +57,7 @@ class PagesController extends Controller
     public function sendmail()
     {
         Mail::send('emails.contact', [], function($message){
-            $message->to('frkalderon@gmail.com')->subject('Contact from Blue Terrier');
+            $message->to('info@blueterrier.mx')->subject('Contact from Blue Terrier');
         });        
     }
 }
