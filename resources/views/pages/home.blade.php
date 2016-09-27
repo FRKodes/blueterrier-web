@@ -18,11 +18,11 @@
 		<div class="row works-home">
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 works-container">
 				<div class="item-work otro"><img src="/images/kamado.png" alt="kamado" class="wood"></div>
-				<div class="item-work agua-maldita"><img src="/images/agua-maldita-project.png" alt="agua maldita project" class=""></div>
+				<div class="item-work agua-maldita black-gradient"><img src="/images/agua-maldita-project.png" alt="agua maldita project" class=""></div>
 			</div>
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 works-container">
+				<div class="item-work pistones black-gradient hidden-xs"><img src="/images/pistones-project.png" alt="pistones garage project"></div>
 				<div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
-				<div class="item-work otro bt hidden-xs"><img src="/images/perrito.svg" style="width:91%" alt="blue terrier dog"></div>
 			</div>
 		</div>
 	</div>

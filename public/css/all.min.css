@@ -308,12 +308,23 @@ margin-left -5%,
 }
 .boreal {
   background: #e81c25;
+  background: #f85032;
+  background: radial-gradient(ellipse at center, #f85032 0%, #f16f5c 10%, #f6290c 91%, #f02f17 97%, #e73827 100%);
 }
 .otro {
   background: #f5f5dc;
+  background: #e8d1b2;
+  background: radial-gradient(ellipse at center, #e8d1b2 0%, #e8d1b2 65%, #decdb6 91%, #e0d5c7 95%, #dbc7b3 100%);
 }
 .bt {
   background: #55c2eb;
+}
+.pistones {
+  background: #000;
+}
+.black-gradient {
+  background: #4c4c4c;
+  background: radial-gradient(ellipse at center, #4c4c4c 0%, #1c1c1c 75%, #131313 100%);
 }
 /*Services*/
 .item-services {
