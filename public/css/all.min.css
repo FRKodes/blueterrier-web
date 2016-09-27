@@ -312,6 +312,9 @@ margin-left -5%,
 .otro {
   background: #f5f5dc;
 }
+.bt {
+  background: #55c2eb;
+}
 /*Services*/
 .item-services {
   margin-bottom: 30px;

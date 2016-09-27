@@ -22,7 +22,7 @@
 			</div>
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 works-container">
 				<div class="item-work boreal"><img src="/images/boreal-project.png" alt="boreal project"></div>
-				<div class="item-work otro hidden-xs"><img src="/images/kamado.png" alt="kamado"></div>
+				<div class="item-work otro bt hidden-xs"><img src="/images/perrito.svg" style="width:91%" alt="blue terrier dog"></div>
 			</div>
 		</div>
 	</div>
