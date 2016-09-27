@@ -82,7 +82,7 @@
 						<div class="responsible-info col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 							<div class="responsible-photo"><img src="/images/berna_pic.jpg" alt="Design and advertising responsible photo"></div>
 							<p class="responsible-description">
-								<p>The brand's communication to it's audiencie is fundamental to it's positioning, creativity and certain messages will do stand up from the crowd.</p>
+								<p>The brand's communication to it's audience is fundamental to it's positioning, creativity and certain messages will do stand up from the crowd.</p>
 								<p>Graduated from Graphic Design and in love with architecture, NFL, reading and design fan.</p>
 								<p>Design and advertising manager.</p>
 							</p>
