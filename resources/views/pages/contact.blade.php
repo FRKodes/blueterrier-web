@@ -1,5 +1,5 @@
 @extends('app')
-
+@section('page_title', 'Interested in working together or just want to say hello? We are here for you!')
 @section('content')
 	<div class="container-fluid">
 		<div class="row">

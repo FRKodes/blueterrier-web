@@ -11,6 +11,8 @@ gris1 = #6E7379
 .blanco
 .white
 	color blanco
+.gris0
+	color gris0
 .gris1
 	color gris1
 .back-blue
@@ -313,8 +315,10 @@ body
 		height 100px
 		display inline-block
 		overflow hidden
-		background-color gris1
+		background-color transparent
 		margin-bottom 30px
+		&.dog
+			border-radius 0px
 .down
 	margin-top 30px
 	margin-bottom 30px
@@ -337,11 +341,15 @@ body
 		background-size 768px
 		height 450px
 	&.kamado
-		background black url(../../images/kamado.jpg) no-repeat center bottom
+		background black url(../../images/kamado-project-banner.jpg) no-repeat center bottom
+		background-size 768px
+		height 450px
+	&.pistones
+		background black url(../../images/pistones-detail-banner.jpg) no-repeat center bottom
 		background-size 768px
 		height 450px
 	&.boreal
-		background black url(../../images/boreal.jpg) no-repeat center bottom
+		background black url(../../images/boreal-project-banner.jpg) no-repeat center bottom
 		background-size 600px
 		height 350px
 .project-info

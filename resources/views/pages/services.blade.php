@@ -1,11 +1,11 @@
 @extends('app')
-
+@section('page_title', 'Keep an eye to the services we, have to help you to conquer the most demanding market.')
 @section('content')
 	<div class="container-fluid" style="overflow: hidden;">
 		<div class="row inner-banner services">
 			<div class="col-xs-12 inner-banner-text">
-				<h1>Lleguemos a la cima</h1>
-				<p>Echa un vistazo a los servicios que tenemos para ayudarte a conquistar al mercado más exigente.</p>
+				<h1>Let's get to the top together</h1>
+				<p>Keep an eye to the services we have to help you to conquer the most demanding market.</p>
 				<div class="arrow-down-btn"><span class="icon-flecha"></span></div>
 			</div>
 		</div>
@@ -20,16 +20,16 @@
 				</a>
 				<div class="row extra-content logo-design hidden">
 					<p class="blanco">
-						Nos enorgullece crear logos que forman parte del día a día de las personas. Personas que se identifican con la manera de actuar, la filosofía y el carácter de las marcas que usan.
+						We are proud to create logos which take part people’s life day by day. People who think the same as the brand’s philosophy and get identified with the brand’s character.
 					</p>
 
 					<div class="responsible">
-						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
+						<div class="responsible-info col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+							<div class="responsible-photo"><img src="/images/diego-herflo.jpeg" alt="Logo Design responsible photo"></div>
 							<p class="responsible-description">
-								Construir la parte gráfica de una marca es una labor apasionante. Hay que investigar reunir un conjunto de historias, recuerdos y expectativas que en conjunto definan la decisión de los consumidores a elegir tu producto. <br><br>
-								En constante búsqueda de inspiración y siempre al tanto de las tendencias y prácticas en las artes visuales. Con múltiples proyectos de branding a su cargo. <br><br>
-								Guitarrista de hobbie, fan de las artes plásticas y casi todo tipo de música.
+								<p>Build the graphic part of a brand is a passionate work. It needs to make research about histories, memories and expectations which altogether define the consumer’s decision to choose your product.</p>
+								<p>In a constant search from inspiration and always keeping an eye on the tendencies and practices in visual arts. With several branding projects working on.</p>
+								<p>Guittar player for hobbie, plastic arts fan and almost every kind of music.</p>
 							</p>
 						</div>
 					</div>
@@ -43,20 +43,20 @@
 					<span class="back-icon icon-webdesign hidden-xs"></span>
 					<span class="icon-mas"></span>
 					<h2>Web Design</h2>
-					<p class="description">100% responsive, clean code and SEO optimized.</p>
+					<p class="description">100% responsive, clean and SEO optimized code.</p>
 				</a>
 				<div class="row extra-content web-design hidden">
 					<p class="blanco">
-						Desarrollamos tu proyecto 100% responsive, siempre tomando muy en cuenta la experiencia de usuario (UX), código limpio y optimizado para buscadores, de esta manera será más fácil encontrar tu sitio web en una búsqueda por internet.
+						We will build your project always keeping in mind the UX, we like to deploy only clean code which charges faster and well done for Search Engines. This way will be more easy find your site in a web search.
 					</p>
 
 					<div class="responsible">
-						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
+						<div class="responsible-info col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt="Web Design responsible photo"></div>
 							<p class="responsible-description">
-								Poner en su lugar a los píxeles, imágenes, archivos CSS, HTML, Bases de datos y demás elementos que conforman tu sitio web no es tarea fácil, se requiere de un carácter fuerte y organizado para lograrlo. <br><br>
-								Más de 8 años desarrollando para web lo respaldan. Siempre buscando las mejores prácticas para desarrollar tu proyecto de una manera mejor y más rápida. <br><br>
-								Geek amante de la tecnología, las Apps y nuevas tendencias de desarrollo.
+								Put inplace to the pixels, imahes, CSS, HTML, Data Bases and more elements which form part of your website is not an easy task, it needs a strong and organized character to get it. <br>
+								With more than 8 years of experience. Always searching for best practices to develop you proyect in the most easy and fast way. <br>
+								Geek in love with thech stuff, Apps and new development technologies
 							</p>
 						</div>
 					</div>
@@ -75,16 +75,16 @@
 				</a>
 				<div class="row extra-content design-adv hidden">
 					<p class="blanco">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deserunt nihil labore aperiam accusantium porro ipsum quos blanditiis animi facere totam molestias architecto, vitae, sapiente, odit provident dolor ducimus nisi.
+						&nbsp; <br><br>
 					</p>
 
 					<div class="responsible">
-						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
+						<div class="responsible-info col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+							<div class="responsible-photo"><img src="/images/berna_pic.jpg" alt="Design and advertising responsible photo"></div>
 							<p class="responsible-description">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore fugiat assumenda, eligendi praesentium provident atque, illo natus error porro voluptatum, molestiae debitis beatae aliquam sapiente omnis impedit sit nulla sequi. <br><br>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore fugiat assumenda, eligendi praesentium provident atque, illo natus error porro voluptatum, molestiae debitis beatae aliquam sapiente omnis impedit sit nulla sequi. <br><br>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore fugiat assumenda, eligendi praesentium provident atque, illo natus error porro voluptatum, molestiae debitis beatae aliquam sapiente omnis impedit sit nulla sequi. <br><br>
+								<p>The brand's communication to it's audiencie is fundamental to it's positioning, creativity and certain messages will do stand up from the crowd.</p>
+								<p>Graduated from Graphic Design and in love with architecture, NFL, reading and design fan.</p>
+								<p>Design and advertising manager.</p>
 							</p>
 						</div>
 					</div>
@@ -99,20 +99,20 @@
 					<span class="back-icon icon-outsourcing hidden-xs"></span>
 					<span class="icon-mas"></span>
 					<h2>Web Development</h2>
-					<p class="description">WEB DEV collaborate with another creative minds. Do you need help for a big project? We nailed it!</p>
+					<p class="description">WE love to collaborate with another creative minds. Do you need help for a big project? We handle it!</p>
 				</a>
 				<div class="row extra-content web-dev hidden">
 					<p class="blanco">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eligendi consequuntur, quisquam alias dolore, commodi maiores officiis. Soluta saepe pariatur id incidunt delectus aspernatur cumque dolorum aut aperiam fugit, tempora!
+						&nbsp; <br><br>
 					</p>
 
 					<div class="responsible">
-						<div class="responsible-info col-sm-10 col-sm-offset-1">
-							<div class="responsible-photo"><img src="/images/frkodes.jpg" alt=""></div>
+						<div class="responsible-info col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+							<div class="responsible-photo"><img src="/images/blue-terrier-dog.png" class="dog" alt="Blue Terrier Web Development"></div>
 							<p class="responsible-description">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis cumque quo eos error repellendus possimus recusandae, laudantium tenetur accusamus dolorum aperiam perferendis in magnam beatae esse illum autem officia. <br><br>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quis nam temporibus quasi delectus suscipit provident deserunt nihil doloremque, molestias esse dolorem id porro consectetur sapiente, fugiat obcaecati. Rem, nesciunt. <br><br>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aperiam sit id iure odio distinctio, itaque doloremque fugit a assumenda quo, earum nobis ullam soluta veniam quia atque omnis similique?
+								Our entusiast team loves to get involved in challenging projects all the time. <br>
+								We can help you with that project which needs some help from other perspective. <br>
+								Do you need some help on that challenging project? hit us an email to <a href="mailto:info@blueterrier.mx" class="gris0" title="Hey! let's work together.">info@blueterrier.mx</a>
 							</p>
 						</div>
 					</div>
@@ -142,8 +142,8 @@
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<span class="icon-logobt"></span>
-				<p>¿Quieres saber más?</p>
-				<p class="gris1">Escríbenos un correo, seguro encontraremos la solución a tu desafío. <br> <a href="mailto:info@blueterrier.mx" class="gris1" title="Envíanos un correo, nosotros te ayudamos.">info@blueterrier.mx</a></p>
+				<p>Do you know more?</p>
+				<p class="gris1">Send us an email, we are sure we find out the solution for your challenge. <br> <a href="mailto:info@blueterrier.mx" class="gris1" title="Hit us an email, we will help you.">info@blueterrier.mx</a></p>
 			</div>
 		</div>
 	</div>

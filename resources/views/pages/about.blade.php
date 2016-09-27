@@ -1,5 +1,5 @@
 @extends('app')
-
+@section('page_title', 'We are a creative studio, especialized in web development and digital marketing based in Guadalajara Jalisco, Mx.')
 @section('content')
 	<div class="container-fluid">
 		<div class="row inner-banner about"><img src="/images/perrito.svg" alt=""></div>

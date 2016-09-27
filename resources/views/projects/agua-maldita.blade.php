@@ -11,20 +11,20 @@
 			<div class="project-info col-sm-10 col-sm-offset-1">
 				<h1 class="azul text-center">AGUA MALDITA</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, veniam dolor deserunt non iusto, obcaecati maiores, rem rerum a repudiandae reprehenderit. Iste repudiandae qui sequi corrupti, aspernatur error vero nostrum.
+					With brand launching aproaching in a short time, Agua Maldita Mezcal entrusted Blue Terrier to create a launching Digital Strategy which resulted in a certain website design and development, also the correct look and fell in it's social networks to be managed by the client.
 				</p>
 			</div>
 
 			<div class="item-detail">
-				<figure><img src="/images/boreal.jpg" alt="Proyecto Boreal"></figure>
+				<figure><img src="/images/agua-maldita-project-01.jpg" alt="agua maldita project 01"></figure>
 			</div>
 
 			<div class="item-detail">
-				<figure><img src="/images/boreal.jpg" alt="Proyecto Boreal"></figure>
+				<figure><img src="/images/agua-maldita-project-02.jpg" alt="agua maldita project 02"></figure>
 			</div>
 
 			<div class="item-detail">
-				<figure><img src="/images/boreal.jpg" alt="Proyecto Boreal"></figure>
+				<figure><img src="/images/agua-maldita-project-03.jpg" alt="agua maldita project 03"></figure>
 			</div>
 
 			<div class="item-detail">

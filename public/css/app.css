@@ -5,6 +5,9 @@
 .white {
   color: #fff;
 }
+.gris0 {
+  color: #dfdfdf;
+}
 .gris1 {
   color: #6e7379;
 }
@@ -390,8 +393,11 @@ margin-left -5%,
   height: 100px;
   display: inline-block;
   overflow: hidden;
-  background-color: #6e7379;
+  background-color: transparent;
   margin-bottom: 30px;
+}
+.responsible img.dog {
+  border-radius: 0px;
 }
 .down {
   margin-top: 30px;
@@ -420,12 +426,17 @@ margin-left -5%,
   height: 450px;
 }
 .inner-banner-detail.kamado {
-  background: #000 url("../../images/kamado.jpg") no-repeat center bottom;
+  background: #000 url("../../images/kamado-project-banner.jpg") no-repeat center bottom;
+  background-size: 768px;
+  height: 450px;
+}
+.inner-banner-detail.pistones {
+  background: #000 url("../../images/pistones-detail-banner.jpg") no-repeat center bottom;
   background-size: 768px;
   height: 450px;
 }
 .inner-banner-detail.boreal {
-  background: #000 url("../../images/boreal.jpg") no-repeat center bottom;
+  background: #000 url("../../images/boreal-project-banner.jpg") no-repeat center bottom;
   background-size: 600px;
   height: 350px;
 }

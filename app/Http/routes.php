@@ -10,3 +10,4 @@ Route::post('sendmail', 'PagesController@sendmail');
 Route::get('proyecto/agua-maldita-mezcal', 'PagesController@aguamaldita');
 Route::get('proyecto/kamado-grill', 'PagesController@kamado');
 Route::get('proyecto/boreal', 'PagesController@boreal');
+Route::get('proyecto/pistones-garage', 'PagesController@pistones');

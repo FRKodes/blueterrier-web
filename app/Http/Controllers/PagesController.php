@@ -49,6 +49,11 @@ class PagesController extends Controller
         return View('projects.boreal');
     }
 
+    public function pistones()
+    {
+        return View('projects.pistones');
+    }
+
     public function sendmail()
     {
         Mail::send('emails.contact', [], function($message){
